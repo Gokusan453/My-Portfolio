@@ -1,0 +1,70 @@
+body {
+    background-color: var(--black);
+    color: var(--white);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/*THEME*/
+body.light-mode {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+body.dark-mode {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+body.dark-mode .hero__intro {
+    color: var(--gray);
+}
+
+body.dark-mode .hero__link {
+    background-color: var(--light-green);
+    border-radius: 0.5rem;
+    padding: 2.0.1563rem;
+}
+
+body.dark-mode .footer__up {
+    background-color: var(--light-green);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+
+body.dark-mode .footer__social-link{
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 0.1563rem;
+}
+
+body.dark-mode .header__nav-btn {
+    background-color: var(--black);
+}
+
+body.dark-mode .header__nav-link--active {
+    border-bottom: 0.125rem solid #8ff2a3;
+}
+
+body.light-mode .projects__item {
+    background-color: var(--gray);
+}
+
+body.dark-mode .footer__social-link {
+    background-color: var(--light-green);
+    border-radius: 0.5rem;
+    padding: 2. 0.1563rem;
+}
+
+body.dark-mode .contact__info-link {
+    color: var(--white);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode .contact__input {
+    border: solid 0.0625rem var(--black);
+}
+
+body.dark-mode .skip-link {
+    background-color: var(--light-green);
+    color: var(--black);
+}

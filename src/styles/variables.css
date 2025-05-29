@@ -1,0 +1,36 @@
+:root {
+    --black: #111;
+    --white: #fff;
+    --gray: #bcbcbc;
+    --dark-gray: #616161;
+    --light-green: #8ff2a3;
+    --green: #40a233;
+    --hover: #6bea58;
+
+    --s: 0.3rem;
+    --sm: 0.75rem;
+    --base: 1.25rem;
+    --md: 1.875rem;
+    --lg: 2.25rem;
+    --xl: 3.25rem;
+    --xxl: 9.35rem;
+
+    --font-family: "Red Hat Text", sans-serif;
+    --text-sm: var(--sm);
+    --text-base: var(--base);
+    --text-lg: var(--lg);
+    --text-xl: var(--xl);
+
+    --spacing-s: var(--s);
+    --spacing-sm: var(--sm);
+    --spacing-base: var(--base);
+    --spacing-md: var(--md);
+    --spacing-lg: var(--lg);
+    --spacing-xl: var(--xl);
+    --spacing-xxl: var(--xxl);
+
+    --border-sm: var(--sm);
+    --border-radius-base: var(--base);
+    --border-radius-lg: var(--lg);
+    --border-radius-xl: var(--xl);
+}

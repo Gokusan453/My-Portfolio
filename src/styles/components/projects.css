@@ -1,0 +1,103 @@
+.projects {
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xxl);
+}
+
+.projects__title {
+    text-align: center;
+    font-size: var(--text-xl);
+    margin-bottom: var(--spacing-lg);
+}
+
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.projects__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-xl);
+    background-color: var(--dark-gray);
+    border-radius: 5rem;
+    width: 80%;
+    margin-top: var(--spacing-base);
+    margin: auto;
+}
+
+.projects__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-base);
+    width: 50%;
+    padding-left: var(--spacing-lg);
+}
+
+.projects__image {
+    width: 50%;
+    height: auto;
+}
+
+ .projects__image-img {
+    border-radius: var(--base);
+ }
+
+ @keyframes gitFade {
+    0% {
+        opacity: 0.8;
+        box-shadow: 0 0 0.3125rem var(--white), 0 0 0.625rem var(--green);
+    }
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 0.625rem var(--light-green), 0 0 0.9375rem var(--white);
+    }
+    100% {
+        opacity: 0.8;
+        box-shadow: 0 0 0.3125rem var(--white), 0 0 0.625rem var(--green);
+    }
+}
+
+.projects__link {
+    text-decoration: none;
+    background-color: var(--light-green);
+    width: 50%;
+    text-align: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--md);
+    color: var(--black);
+    animation: gitFade 2s ease-in-out infinite;
+
+    &:hover {
+        background-color: var(--hover);
+        color: var(--black);
+    }
+}
+
+.projects__caption {
+    display: none;
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .projects__item {
+        flex-direction: column;
+        width: 90%;
+        padding: var(--spacing-md);
+        border-radius: 2rem;
+    }
+
+    .projects__image {
+        width: 100%;
+        height: auto;
+    }
+
+    .projects__content {
+        width: 100%;
+        padding-left: 0;
+        margin-top: var(--spacing-sm);
+    }
+}

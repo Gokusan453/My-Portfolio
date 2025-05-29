@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gokhan Guner</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="build/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header__item" aria-label="Homepage">
+            <h1>Gokhan Guner</h1>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="projects.html" class="header__nav-link">My Projects</a></li>
+                <li class="header__nav-item"><a href="contact.html"
+                        class="header__nav-link header__nav-link--active">Contact</a></li>
+            </ul>
+            <button id="toggleMode" class="header__nav-btn">
+                <img src="src/images/icons/sun.png">
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Contact Me</h2>
+            <p class="contact__text">If you have any questions or want to collaborate, feel free to reach out!</p>
+            <div class="contact__container">
+                <div class="contact__info">
+                    <h3 class="contact__info-title">Contact Information</h3>
+                    <p class="contact__info-item">Email: <a href="mailto:gokhanguner316@gmail.com"
+                            class="contact__info-link">gokhanguner316@gmail.com</a></p>
+                    <p class="contact__info-item">Phone: <a href="tel:+32469488485" class="contact__info-link">+32 469
+                            488 485</a></p>
+                    <p class="contact__info-item">Location: Ghent, Belgium</p>
+                </div>
+
+                <form method="POST" class="contact__form">
+                    <div class="contact__form-div">
+                        <label for="name" class="contact__label">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" class="contact__input"
+                            required>
+                    </div>
+
+                    <div class="contact__form-div">
+                        <label for="email" class="contact__label">Email:</label>
+                        <input type="email" id="email" name="_replyto" placeholder="Your Email" class="contact__input"
+                            required>
+                    </div>
+
+                    <div class="contact__form-div">
+                        <label for="message" class="contact__label">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" class="contact__input"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact__button" aria-label="Contacteer ons">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo" aria-label="footer">
+        <a href="#top" class="footer__up">
+            <img src="src/images/icons/up-arrow.png" class="footer__icon" width="30px">
+            <p class="footer__text">BACK TO TOP</p>
+        </a>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/gokhan-guner-37a531295/" class="footer__social-link"><img
+                    src="src/images/icons/linkedin.png" class="footer__social-icon" width="45px"></a>
+            <a href="https://github.com/Gokusan453" class="footer__social-link"><img src="src/images/icons/github.png"
+                    class="footer__social-icon" width="45px"></a>
+            <a href="" class="footer__social-link"><img src="src/images/icons/twitter.png" class="footer__social-icon"
+                    width="45px"></a>
+            <a href="https://www.instagram.com/gokhanxguner/" class="footer__social-link"><img
+                    src="src/images/icons/instagram.png" class="footer__social-icon" width="45px"></a>
+        </div>
+        <p class="footer__copyright"><span>&copy; 2023 Gokhan Guner</span> All rights reserved.</p>
+    </footer>
+
+    <script src="build/app.js"></script>
+</body>
+
+</html>

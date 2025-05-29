@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Gokhan Guner</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="build/main.css">
+</head>
+
+<body>
+    <header class="header" role="banner">
+        <a href="index.html" class="header__item" aria-label="Homepage">
+            <h1>Gokhan Guner</h1>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="projects.html"
+                        class="header__nav-link header__nav-link--active">My Projects</a></li>
+                <li class="header__nav-item"><a href="contact.html" class="header__nav-link">Contact</a></li>
+            </ul>
+            <button id="toggleMode" class="header__nav-btn">
+                <img src="src/images/icons/sun.png">
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="projects">
+            <h2 class="projects__title">My Projects</h2>
+            <div class="projects__list">
+                <div class="projects__item">
+                    <figure class="projects__image">
+                        <img class="projects__image-img" src="src/images/photos/atwork.png" alt="Atwork Tijdloze">
+                        <figcaption class="projects__caption">Project: Atwork Tijdloze</figcaption>
+                    </figure>
+                    <div class="projects__content">
+                        <h3 class="projects__name">Best of 2024</h3>
+                        <p class="projects__description">An interactive web app that highlights the top content of 2024
+                            — from albums and games to movies and all-time favorites.
+                            Featuring smooth API-powered data loading and a sleek, user-friendly interface.</p>
+                        <a href="https://github.com/pgm-2425-atwork-1/project-2-Gokusan453.git" target="_blank"
+                            class="projects__link">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <figure class="projects__image">
+                        <img class="projects__image-img" src="src/images/photos/makeit.png" alt="Make It Happen">
+                        <figcaption class="projects__caption">Project: Make It Happen</figcaption>
+                    </figure>
+                    <div class="projects__content">
+                        <h3 class="projects__name">make-it-happen</h3>
+                        <p class="projects__description">A RESTful API for task management, featuring JWT-based
+                            authentication. Built using Node.js, Express, EJS,
+                            Knex.js, and Objection.js for a structured and efficient backend.</p>
+                        <a href="https://github.com/pgmgent-pgm-3/make-it-happen-Gokusan453" target="_blank"
+                            class="projects__link">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <figure class="projects__image">
+                        <img class="projects__image-img" src="src/images/photos/gamescom.png" alt="Gamescom">
+                        <figcaption class="projects__caption">Project: Gamescom</figcaption>
+                    </figure>
+                    <div class="projects__content">
+                        <h3 class="projects__name">eindopdracht-gamescom</h3>
+                        <p class="projects__description">My first JavaScript project — a custom remake of the Gamescom
+                            website featuring an interactive countdown timer and
+                            clickable articles that reveal more information. A great intro to DOM manipulation and event
+                            handling.</p>
+                        <a href="https://github.com/pgm-2425-programming-1/eindopdracht-gamescom-2025-Gokusan453"
+                            target="_blank" class="projects__link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo" aria-label="footer">
+        <a href="#top" class="footer__up">
+            <img src="src/images/icons/up-arrow.png" class="footer__icon" width="30px">
+            <p class="footer__text">BACK TO TOP</p>
+        </a>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/gokhan-guner-37a531295/" class="footer__social-link"><img
+                    src="src/images/icons/linkedin.png" class="footer__social-icon" width="45px"></a>
+            <a href="https://github.com/Gokusan453" class="footer__social-link"><img src="src/images/icons/github.png"
+                    class="footer__social-icon" width="45px"></a>
+            <a href="" class="footer__social-link"><img src="src/images/icons/twitter.png" class="footer__social-icon"
+                    width="45px"></a>
+            <a href="https://www.instagram.com/gokhanxguner/" class="footer__social-link"><img
+                    src="src/images/icons/instagram.png" class="footer__social-icon" width="45px"></a>
+        </div>
+        <p class="footer__copyright"><span>&copy; 2023 Gokhan Guner</span> All rights reserved.</p>
+    </footer>
+
+    <script src="build/app.js"></script>
+</body>
+
+</html>
